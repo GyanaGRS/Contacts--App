@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="#C4E38D"
+    android:layout_margin="30dp"
+    tools:context=".updation">
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="75dp"
+            android:src="@drawable/male_lawer_icon"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:hint="Contact Name"
+            android:id="@+id/editContactName"
+            android:textColorHint="#7E2D2D"
+            android:layout_marginHorizontal="10dp"
+            android:background="#AEECD6"
+            android:gravity="center"
+            android:layout_marginTop="120dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/editContactNum"
+            android:background="#AEECD6"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textColorHint="#7E2D2D"
+            android:hint="Contact Number"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:textStyle="bold"
+            android:id="@+id/editBtn"
+            android:layout_gravity="end"
+            android:layout_marginTop="40dp" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
